@@ -4,7 +4,7 @@ body{
 
 .card{
 	background-color: white;
-	width: 400px;
+	width: 350px;
 	padding: 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -41,4 +41,26 @@ body{
 
 .otherCardInfoText{
 	margin-left: 30px;
+	font-size: 13px;
+}
+
+.personalName{
+
+}
+
+.personalEmail{
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.shade{
+	width: 350px;
+	height: 40px;
+	background-color: #F5F5F5;
+}
+
+.finalCard{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
 }
