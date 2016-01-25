@@ -19,18 +19,26 @@ body{
 	float: left;
 }
 
+.personalCardInfo{
+	overflow: auto;
+}
+
 .personal{
-	margin-left: 80px;
-	margin-top: 12px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
 	font-family: "Helvetica Neue";
 
 }
 
 .otherCardInfo{
-	position: relative;;
-	top: 10px;
-	margin-top: 5px;
-	font-family: "Helvetica Neue"
+	clear: left;
+}
+
+.otherInfo{
+	margin-top: 10px;
+	font-family: "Helvetica Neue";
+	overflow: auto;
 }
 
 .otherCardInfoImg{
@@ -40,8 +48,9 @@ body{
 }
 
 .otherCardInfoText{
-	margin-left: 30px;
+	margin-left: 10px;
 	font-size: 13px;
+	float: left
 }
 
 .personalName{
