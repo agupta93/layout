@@ -33,9 +33,13 @@ body{
 
 .otherCardInfo{
 	clear: left;
+	display: flex;
+	justify-content: space-between;
+
 }
 
 .otherInfo{
+	display: inline-block;
 	margin-top: 10px;
 	font-family: "Helvetica Neue";
 	overflow: auto;
@@ -54,12 +58,20 @@ body{
 }
 
 .personalName{
+	border: 2px solid white;
+}
 
+.personalName:hover{
+	border-color: black;
 }
 
 .personalEmail{
 	font-size: 13px;
 	margin-top: 5px;
+	max-width: 240px;
+	overflow: hidden;
+	white-space: nowrap;									/* Need to ask this */
+	text-overflow: ellipsis;
 }
 
 .shade{
